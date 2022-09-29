@@ -1,4 +1,5 @@
 import '../style';
+import Loginform from './loginform';
 
 export default function Login() {
 	return (
@@ -14,7 +15,7 @@ export default function Login() {
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				  </div>
 				  <div class="modal-body">
-					This is where the login form will be
+                    <Loginform />
 				  </div>
 				  <div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
